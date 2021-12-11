@@ -1,7 +1,10 @@
 
 F-Secure Virus World Map console version
 ========================================
-(note: F-secure feed stopped in 2020. This fork uses local json file as a demo replay from https://web.archive.org/web/20141124231452/http://worldmap3.f-secure.com/api/stream/wm3stream.json )
+Note: The virus feed stopped in 2020. This fork uses local json file as a demo replay. It is a good sample of data visualization with global scale via console. 
+
+REF: 
+https://web.archive.org/web/20141124231452/http://worldmap3.f-secure.com/api/stream/wm3stream.json
 
 Copyright 2012-2013 Jyrki Muukkonen
 
