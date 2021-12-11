@@ -187,7 +187,8 @@ class MapApp(object):
         conf = dict(conf or [])
 
         # stream url can be a known name, filename or url
-        stream_url = conf.get('stream_url', 'wm3')
+        # stream_url = conf.get('stream_url', 'wm3')
+        stream_url = conf.get('stream_url', 'filetest')
         stream_url = STREAMS.get(stream_url, stream_url)
         if '://' not in stream_url and os.path.isfile(stream_url):
             stream_url = 'file://' + os.path.abspath(stream_url)
